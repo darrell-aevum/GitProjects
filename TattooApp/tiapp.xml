@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">SL5q9VAIPuyJXgs26FPz7K3H8nNbcf7Z</property>
+    <property name="acs-oauth-key-production" type="string">auBfsggKN8ecBcPGAvvfxPHHEsvroxnr</property>
+    <property name="acs-api-key-production" type="string">wv5nTyHGpvxjJAmFcjjx3weXuOnaZbOB</property>
+    <property name="acs-oauth-secret-development" type="string">F8op4iEvcSj9UeFAkk9DtMXYSvH7B1sz</property>
+    <property name="acs-oauth-key-development" type="string">R6ASghD58aozmQllSiG2MpFJZdEh8o0w</property>
+    <property name="acs-api-key-development" type="string">wtm4UIBqFucPZd9hZItL3ts8zsNjxEFw</property>
+    <id>TattooApp</id>
+    <name>TattooApp</name>
+    <version>1.0</version>
+    <publisher>dh</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2013 by dh</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>dda23d1b-c189-42f5-9f55-94a1ebf3c7ce</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.1.2.GA</sdk-version>
+</ti:app>
